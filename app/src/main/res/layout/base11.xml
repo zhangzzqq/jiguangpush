@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bind="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:id="@+id/title"
+        bind:layout_constraintLeft_toLeftOf="parent"
+        bind:layout_constraintRight_toLeftOf="@+id/more"
+        bind:layout_constraintHorizontal_bias="0"
+        android:text="情感故事情情感故事情感故情感情感情感故事情感故情感情感感故情感情感"
+        tools:text="情感故事情情感故事情感故情感情感情感故事情感故情感情感感故情感情感"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        bind:layout_constraintRight_toRightOf="parent"
+        bind:layout_constraintTop_toTopOf="@+id/title"
+        bind:layout_constraintBottom_toBottomOf="@+id/title"
+        android:src="@drawable/abc_vector_test"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
