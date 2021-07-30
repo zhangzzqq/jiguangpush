@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./jiguang/libs/MiPush_SDK_Client_4_0_2.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/jiguang/libs/MiPush_SDK_Client_4_0_2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

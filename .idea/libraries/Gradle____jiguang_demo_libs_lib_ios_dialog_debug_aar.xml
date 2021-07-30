@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: ./jiguang-demo/libs/lib-ios-dialog-debug.aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b19d19e7d5195a4cb8325a6356e70a11/jetified-lib-ios-dialog-debug/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b19d19e7d5195a4cb8325a6356e70a11/jetified-lib-ios-dialog-debug/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b19d19e7d5195a4cb8325a6356e70a11/jetified-lib-ios-dialog-debug/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
