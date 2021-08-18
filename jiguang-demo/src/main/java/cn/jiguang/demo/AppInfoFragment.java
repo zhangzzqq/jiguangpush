@@ -27,8 +27,7 @@ public class AppInfoFragment extends Fragment {
     @Override
     public View onCreateView(
             LayoutInflater inflater, ViewGroup container,
-            Bundle savedInstanceState
-    ) {
+            Bundle savedInstanceState) {
         getContext().registerReceiver(reciver, new IntentFilter("com.jiguang.demo.register"));
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.d_fragment_appinfo, container, false);
